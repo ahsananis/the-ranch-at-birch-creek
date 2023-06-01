@@ -1,0 +1,55 @@
+.homeOurRanchSec{
+    position: relative;
+    .homeOurRanchMain{
+        position: relative;
+        video{
+            object-fit: cover;
+            border-radius: 30px;
+        }
+        h2{
+            font-family: 'Poppins' !important;
+            font-style: normal;
+            font-weight: 700 !important;
+            font-size: 80px;
+            line-height: 120px;
+            text-align: center;
+            letter-spacing: 0.02em;
+            text-transform: uppercase;
+            color: #D97827 !important;
+        }
+        h2 span {
+            font-size: 80px;
+            text-align: center;
+            color: #ffffff00 !important;
+            background: linear-gradient(#00ffff00, #ffff0000);
+            // -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            -webkit-text-stroke: 1px #252525;
+        }
+        .videoLogo{
+            position: relative;
+            img {
+                position: absolute;
+                top: -160px;
+                left: auto;
+                right: 140px;
+                bottom: 0;
+            }
+        }
+    }
+    .homeOurRanchMainVideo{
+        position: relative;
+        #video{
+            position: relative;
+        }
+        #playButtonOverlay {
+            position: absolute;
+            content: '';
+            inset: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+        }
+    }
+}

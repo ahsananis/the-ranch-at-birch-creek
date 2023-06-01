@@ -1,0 +1,109 @@
+.homeBanner{
+    height: 760px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    > ::before {
+        position: absolute;
+        content: '';
+        inset: 0;
+        background-color: #000;
+        opacity: 0.2;
+        z-index: 0;
+    }
+     
+ 
+    .bannerContent h5 {
+        font-weight: 400;
+        font-size: 42px;
+        font-family: "Poppins";
+        color: #fff;
+        position: relative;
+        line-height: 30px;
+        text-transform: uppercase;
+    }
+
+    .bannerContent h5::before{
+        position: absolute;
+        content: '';
+        left: 240px;
+        right: 0%;
+        width: 260px;
+        height: 2px;
+        background-color: #fff;
+        top: 26px;
+        bottom: 0px;
+    }
+
+    .bannerContent h2 {
+        font-size: 62px;
+        color: #fff;
+        font-family: "Poppins";
+        font-weight: 700;
+        line-height: 70px;
+        text-transform: uppercase;
+        letter-spacing: 0.02rem;
+        position: relative;
+    }
+
+    .bannerContent p {
+        font-size: 16px;
+        line-height: 32px;
+        color: #fff;
+        font-family: "Poppins";
+        font-weight: 300;
+        width: 47%;
+        margin-bottom: 40px;
+        margin-top: 20px;
+        position: relative;
+    }
+    .BtnMain a{
+        background-color: #D97827;
+        padding: 15px 30px !important;
+        border-radius: 40px;
+        color: #fff;
+        font-size: 16px;
+        font-family: "Poppins";
+        font-weight: 600;
+        border: 1px solid #D97827;
+        text-decoration: none;
+        transition: all 0.5s ease;
+        position: relative;
+    }
+
+    .BtnMain a:hover {
+        background-color: #fff;
+        color: #d97827;
+    }
+    
+}
+.homeBanner::after{
+    position: absolute;
+    content: '';
+    left: 0;
+    right: 0;
+    top: auto;
+    bottom: 0;
+    background-image: url(/images/banner-bottom-new.png);
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 1600px){
+.homeBanner{
+    height: 900px;
+}
+.homeBanner::after {
+    height: 325px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+}

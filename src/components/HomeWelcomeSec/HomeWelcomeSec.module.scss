@@ -1,0 +1,58 @@
+.homeWelcomeSecMain{
+    position: relative;
+    padding: 100px 0px 0px;
+    .homeWelcomeLeft{
+        position: relative;
+        .welcomeLargeImage{
+            border-radius: 30px;
+        }
+        .welcomesmallImage{
+            border-radius: 30px;
+            float: right;
+            position: relative;
+            top: -130px;
+            right: -30px;
+        }
+    }
+    .homeWelcomeRight{
+        position: relative;
+        h4{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 28px;
+            letter-spacing: 0.02em;
+            text-transform: uppercase;
+            color: #5C5D60;
+        }
+        h3{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 50px;
+            line-height: 45px;
+            letter-spacing: 0.02em;
+            text-transform: uppercase;
+            color: #D97827;
+            margin-bottom: 30px;
+        }
+        h3 span{
+            color: #252525;
+            display: block;
+        }
+        p{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 30px;
+            letter-spacing: 0.02em;
+            color: #5C5D60;
+        }
+    }
+}
+
+@media only screen and (max-width: 1599px) and (min-width: 1280px)  {
+    
+}

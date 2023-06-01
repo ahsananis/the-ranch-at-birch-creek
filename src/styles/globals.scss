@@ -1,0 +1,12 @@
+@import "./fonts.scss";
+body, html {
+  overflow-x: hidden !important;
+}
+
+@media (min-width: 1280px){
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1220px;
+}
+
+}
+
